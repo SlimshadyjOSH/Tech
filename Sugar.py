@@ -1,5 +1,7 @@
 import pandas as pd
 import streamlit as st
+import sys
+sys.path.append("c:/users/admin/new folder/lib/site-packages")
 import plotly.express as px
 
 

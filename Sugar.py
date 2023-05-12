@@ -1,8 +1,8 @@
 import pandas as pd
 import streamlit as st
-import sys
-sys.path.append("c:/users/admin/new folder/lib/site-packages")
-import plotly.express as px
+#import sys
+#sys.path.append("c:/users/admin/new folder/lib/site-packages")
+#import plotly.express as px
 
 
 # read in csv file
@@ -95,7 +95,7 @@ fig = px.line(df, x="Year", y="HFCS Grams Per Capita", title="Consumption of Hig
 fig.update_layout(xaxis={'tickangle': 90})
 
 # display plot using streamlit
-st.plotly_chart(fig)
+#st.plotly_chart(fig)
 
 
 # add hyperlink

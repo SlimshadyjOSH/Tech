@@ -7,7 +7,7 @@ import streamlit as st
 
 # read in csv file
 filename = 'C:/Users/Admin/Desktop/obesity cleaned.csv'
-df = pd.read_csv(filename)
+df = pd.read_csv
 
 # print original data
 print("Original data:")
